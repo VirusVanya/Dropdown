@@ -1,24 +1,83 @@
-.dropdown {
-  position: relative;
-  display: inline-block;
+p {
+  text-align: center;
 }
 
-.dropdown-content {
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content1 {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   padding: 12px 16px;
-  z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content1 {
   display: block;
 }
 
-.First {
-  display: flex;
-  width: 50px;
-  height: 20px;
+.dropdown-content1:hover .dropdown-content2 {
+  display: block;
+}
+
+.Supermen {
+  width: 310px;
+  height: 50px;
+  position: absolute;
+  left: 800px;
+  top: 30px;
   background-color: red;
+  border: 3px solid black;
+}
+
+.Team {
+  position: absolute;
+  top: 90px;
+  left: 800px;
+}
+
+.Enemies {
+  position: absolute;
+  top: 90px;
+  left: 960px;
+}
+
+.First {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+.Second1 {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.Second2 {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.Block {
+  display: block;
+  width: 150px;
+  height: 50px;
 }
